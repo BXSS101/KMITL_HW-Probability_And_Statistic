@@ -502,7 +502,7 @@ pltA.xlabel('Number of Tourist')
 pltA.ylabel('Month')
 pltA.title('Tourism in Thailand 2014 each month')
 '''
-'''
+
 #Line graph
 x, y = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], lst14E[0:12]
 a, b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], lst15E[0:12]
@@ -513,10 +513,11 @@ pltA.plot(c, d, label = "Yr2016", marker = 'o', markerfacecolor = 'green', marke
 pltA.xlabel('Number of Tourist')
 pltA.ylabel('Month')
 pltA.title('Tourism in Thailand 2014 - 2016')
+
 #show the plot
 pltA.legend()
 pltA.show()
-'''
+
 
 #Scatter plot
 months_range = [ i for i in range(1,13)]
